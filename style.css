@@ -1,0 +1,74 @@
+#draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+
+.parent-cube1{
+    padding:20px;
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.parent-cube1>.child-cube{
+    background-color: red;
+}
+.parent-cube2{
+    padding:20px;
+    border: 2px solid blue;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.parent-cube2>.child-cube{
+    background-color: blue;
+}
+.parent-cube3{
+    padding:20px;
+    border: 2px solid green;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.parent-cube3>.child-cube{
+    background-color: green !important;
+}
+.parent-cube4{
+    padding:20px;
+    border: 2px solid yellow;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.parent-cube4>.child-cube{
+    background-color: yellow;
+}
+.con{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+button{
+    width: 100px;
+    height: 20px;
+}
+.child-cube{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#dropzone{
+    width: 100px;
+    height:100px;
+    background-color:black;
+}
